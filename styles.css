@@ -1,0 +1,132 @@
+
+
+.body
+{
+    /* Default text */
+    color: #2D3748;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+}
+header
+{
+    background-color:#63B3ED ;
+    color: #FFFFFF;
+}
+
+header > h1
+{
+    /*Heading in the header */
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+article > h2
+{
+    /* Blog post titles */
+    font-size: 32px;
+    color: #48BB78;
+}
+
+article > h4
+{
+    /*Date and author of the blog titles */
+    color: #718096;
+}
+
+#SocialMedia >h3, #Archives >h3
+{
+    /* Social Media and Archives headings */
+    color: #48BB78;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#About
+{
+    /* About heading */
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #E2E8F0;
+    padding: 15px;
+}
+
+#SocialMedia >a, #Archives > a
+{
+    color:#4299E1;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+
+
+
+
+.flex-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container
+{
+    display: grid;
+    grid-template-columns: 5% 55% 30% 10%;
+    grid-template-rows: 1% 60% 20%;
+    grid-gap: 20px;
+}
+
+#box1 
+{
+    grid-column: 1/4;
+    grid-row: 1;
+}
+
+#box2
+{
+    grid-column: 2;
+    grid-row: 2;
+    
+}
+
+#box3
+{
+    grid-column: 3;
+    grid-row: 2;
+    padding-left: 55px;
+}
+
+#box4
+{
+    grid-column: 1/4;
+    grid-row: 4;
+}
+
+
+#blogphoto
+{
+    float: left;
+    padding: 0 15px 0 0;
+    height: 130px;
+}
+
+#profile
+{
+    border-radius: 300px;
+    border: 3px #14213D;
+    border-style: solid;
+    height: 150px;
+    
+}
+
+
+
+footer{
+    background-color: #2C5282;
+    height: 50px;
+    color: #FFFFFF;
+    text-align: center;
+}
